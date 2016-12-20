@@ -1,0 +1,8 @@
+This repository contains csv files containing UK drug mortality statistics derived from the official UK statistics.
+
+Populations of drug users (which are not exclusive - individuals may be part of multiple user populations) have been estimated based on past-year use as reported in Drug misuse: findings from the 2015-2016 CSEW https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/542598/drug-misuse-1516-tabs.ods. The years 1997 and 1999 do not have data and this has been interpolated by taking the average of the two adjacent values. This data does appear somewhat noisy when the prevalence is low and an alternative 'smoothed' set of data is provided in which a five year window of prevlence rates is averaged to provide the prevalence for each year.
+
+Numbers of registered deaths that mention each drug are sourced from the ONS data set Deaths Related to Drug Poisoning, England and Wales. The data released in 2015 were used. www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/bulletins/deathsrelatedtodrugpoisoninginenglandandwales/2015-09-03
+
+No effort has been made to correct for deaths in user populations outside of the age range 16-59
+
